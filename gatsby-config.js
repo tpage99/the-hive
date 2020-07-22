@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `The Hive of the Ozarks`,
+    description: `Different abilities, same opportunities`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,11 +14,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `The Hive of the Ozarks`,
+        short_name: `The Hive`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
