@@ -18,7 +18,10 @@ const IndexPage = () => (
         </span>
       </p>
     </div>
-    <div>
+    <div
+      className="bg-local bg-center bg-contain"
+      style={{ backgroundImage: `url(../images/landingCollage.jpg)` }}
+    >
       <section className="text-center pt-8 md:pt-12 lg:pt-20">
         <h2 className="text-2xl font-bold">
           Different Abilities, Same Opportunties
