@@ -8,6 +8,7 @@ body {
   background-image: url(../images/honeycombBG.svg);
   background-size: cover;
   background-repeat: repeat;
+  backdrop-filter: blur(2px);
   font-family: "IM Fell Double Pica", serif;
 }
 
