@@ -5,13 +5,18 @@
 @tailwind utilities;
 
 body {
-  background-image: url(../images/honeycombBG.svg);
+  background-color: #fff;
+  background-image: url(../images/honeycombBG4.svg);
   background-size: cover;
   background-repeat: repeat;
-  backdrop-filter: blur(2px);
   font-family: "IM Fell Double Pica", serif;
 }
 
 h1 {
   font-family: "Parisienne", cursive;
+}
+
+.bgImage {
+  background-image: url(../images/landingCollage3.svg);
+  background-repeat: no-repeat;
 }
