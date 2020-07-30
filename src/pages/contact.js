@@ -10,10 +10,10 @@ const ContactPage = () => (
       Contact
     </h1>
     <form
-      className="bg-hYellow py-5 px-10 mt-0"
+      className="bg-hYellow py-2 px-5 md:py-5 md:px-10 mt-0"
       name="contact"
       method="POST"
-      action="/success"
+      action="/success/"
       data-netlify-honeypot="bot-field"
       data-netlify="true"
     >
@@ -23,12 +23,12 @@ const ContactPage = () => (
           <input type="hidden" name="form-name" value="contact" />
         </label>
       </div>
-      <div className="bg-mBlue m-5 p-5 text-xl">
+      <div className="bg-mBlue m-2 p-2 md:m-5 md:p-5 text-lg md:text-xl">
         <div>
-          <div className="block px-10">
+          <div className="block px-2 md:px-10">
             <label htmlFor="name">Name</label>
           </div>
-          <div className="block px-10">
+          <div className="block px-2 md:px-10">
             <input
               type="text"
               name="name"
@@ -41,10 +41,10 @@ const ContactPage = () => (
           </div>
         </div>
         <div>
-          <div className="block px-10 pt-5">
+          <div className="block px-2 md:px-10 pt-5">
             <label htmlFor="email">Email</label>
           </div>
-          <div className="block px-10">
+          <div className="block px-2 md:px-10">
             <input
               type="email"
               name="email"
@@ -57,10 +57,10 @@ const ContactPage = () => (
           </div>
         </div>
         <div>
-          <div className="block px-10 pt-5">
+          <div className="block px-2 md:px-10 pt-5">
             <label htmlFor="message">Message</label>
           </div>
-          <div className="block px-10">
+          <div className="block px-2 md:px-10">
             <textarea
               name="text-field"
               rows="4"
@@ -70,7 +70,7 @@ const ContactPage = () => (
             />
           </div>
         </div>
-        <div className="px-10">
+        <div className="block px-2 md:px-10 py-5">
           <button
             type="submit"
             aria-label="submit form"

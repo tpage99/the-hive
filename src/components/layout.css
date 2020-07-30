@@ -20,3 +20,10 @@ h1 {
   background-image: url(../images/landingCollage3.svg);
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1024px) {
+  .bgImage {
+    background-image: url(../images/landingCollageSM2.svg);
+    background-repeat: no-repeat;
+  }
+}

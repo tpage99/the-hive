@@ -17,8 +17,8 @@ const IndexPage = () => (
         </span>
       </p>
     </div>
-    <div className="bg-local bg-center bg-contain bgImage  leading-tight">
-      <section className="text-center pt-8 md:pt-12 lg:pt-20">
+    <div className="bg-local bg-center bg-contain bgImage  leading-tight pt-12 lg:pt-20">
+      <section className="text-center">
         <h2 className="text-2xl md:text-5xl pt-4">
           Different Abilities, Same Opportunties
         </h2>
