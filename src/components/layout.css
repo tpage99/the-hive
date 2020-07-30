@@ -21,7 +21,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .bgImage {
     background-image: url(../images/landingCollageSM2.svg);
     background-repeat: no-repeat;
