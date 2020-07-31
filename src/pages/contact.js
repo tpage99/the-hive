@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -81,6 +82,9 @@ const ContactPage = () => (
         </div>
       </div>
     </form>
+    <div className="text-2xl">
+      <Link className="underline">Back to Home</Link>
+    </div>
   </Layout>
 )
 
